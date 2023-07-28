@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        
+        <h2> value of a, b, c are {{a}} , {{b}} and {{c}} respectively</h2>
+        {% if a > b and a > c %}
+            <h2>if block</h2>
+            <h2> a is max </h2>
+        {% elif b > c %}
+            <h2>elif block</h2>
+            <h2> b is max </h2>
+        {% else %}
+            <h2>else block</h2>
+            <h2> c is max </h2>
+        {% endif %}
+    </center>
+</body>
+</html>
