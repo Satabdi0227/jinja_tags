@@ -23,4 +23,6 @@ urlpatterns = [
     path('data_render/',data_render,name='data_render'),
     path('if_else/',if_else,name='if_else'),
     path('if_elif_else/',if_elif_else,name='if_elif_else'),
+    path('nested_if/',nested_if,name='nested_if'),
+    
 ]
